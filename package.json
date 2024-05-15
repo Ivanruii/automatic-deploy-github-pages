@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ivanruii.github.io/automatic-deploy-github-pages/",
   "scripts": {
     "dev": "vite",
     "build": "npm run type-check && npm run clean && npm run build:prod",
