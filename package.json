@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "npm run type-check && npm run clean && npm run build:prod",
     "build:prod": "vite build",
+    "type-check": "tsc --noEmit --preserveWatchOutput",
+    "clean": "rimraf dist",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
